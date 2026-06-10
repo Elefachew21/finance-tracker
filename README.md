@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # 💰 Financial Money Flow – Expense & Income Tracker
+=======
+
+# 💰 Financial Money Flow – Expense & Income Tracker 
+>>>>>>> b884bde1cc93a289e581307c7dd4d82b25e9326c
 
 A responsive web application for tracking personal income and expenses. Built using **HTML, CSS, and Vanilla JavaScript**, with **LocalStorage persistence** for saving data in the browser.
 
@@ -82,11 +87,6 @@ Filter
 Edit
 Delete
 📷 Screenshots
-
-Add screenshots here:
-
-![Home](./assets/screenshots/home.png)
-![Dashboard](./assets/screenshots/dashboard.png)
 💡 Key Concepts Learned
 DOM manipulation
 Event handling
