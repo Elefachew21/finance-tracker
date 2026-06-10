@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="/assets/icons/logo.png" alt="" />
+      <div class="navbar">
+        <input type="text" placeholder="Search..." class="search-input" />
+
+        <img class="search-icon" src="/assets/icons/search.jpg" alt="Search" />
+      </div>
+    </header>
+    <main>
+      <div class="home">
+        <h1 class="home-title">Financial Money Flow</h1>
+        <p class="description">
+          Track Your Expenses and Income with Ease. Our Financial Money Flow app
+          helps you manage your finances effortlessly.
+        </p>
+      </div>
+      <div class="income-expense-balance">
+        <div class="income">
+          <div>
+            <h2>Total Income</h2>
+            <p id="total-income">$0.00</p>
+          </div>
+          <img src="/assets/icons/riseUp.jpg" alt="" />
+        </div>
+        <div class="expense">
+          <div>
+            <h2>Total Expense</h2>
+            <p id="total-expense">$0.00</p>
+          </div>
+          <img src="/assets/icons/fallDown.jpg" alt="" />
+        </div>
+        <div class="net">
+          <div>
+            <h2>Net Balance</h2>
+            <p id="net-balance">$0.00</p>
+          </div>
+          <img src="/assets/icons/net.jfif" alt="" />
+        </div>
+      </div>
+      <div class="track-operation">
+        <div class="form">
+          <form action="" id="entry-form">
+            <div class="add-edit-entry">
+              <button id="add-edit-btn">+</button>
+              <p>Add Entry</p>
+            </div>
+            <div class="entry-type">
+              <h3 class="exp">Expense</h3>
+              <h3 class="inc">Income</h3>
+            </div>
+            <p>
+              <label for="desc">Description</label>
+              <br />
+              <input type="text" id="desc" />
+            </p>
+            <p>
+              <label for="amount">Amount</label> <br />
+              <input type="number" id="amount" />
+            </p>
+            <p>
+              <label for="category">Category</label> <br />
+              <select name="category" id="category">
+                <option value="Food">Food</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Freelance">Freelance</option>
+                <option value="Selling Project">Selling Project</option>
+                <option value="Buy PC">Buy PC</option>
+                <option value="Monthly Salary">Monthly Salary</option>
+              </select>
+            </p>
+            <p>
+              <label for="date">Date</label> <br />
+              <input style="width: 100%" type="datetime-local" id="date" />
+            </p>
+            <button type="submit" id="submit-btn">Add Entry</button>
+          </form>
+        </div>
+        <div class="display-result">
+          <div class="result-title">
+            <a id="all" href="#all">All Entries</a>
+            <a id="expense" href="#expense">Expense</a
+            ><a id="income" href="#income">Income</a>
+          </div>
+          <div class="result-body"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <img src="/assets/icons/logo.png" alt="" />
+      <div class="footer-box">
+        <p>&copy; <time datetime="2025">2026 </time> All Rights Are Reserved</p>
+      </div>
+    </footer>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
